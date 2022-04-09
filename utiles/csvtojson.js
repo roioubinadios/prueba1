@@ -1,6 +1,7 @@
 
 const csv = require('csvtojson');
 
+//Transforma el csv a formato json y devuelve una promesa que manejamos en app.js
 const getJson = (csvFilePath) => csv({delimiter:';'})
     .fromFile(csvFilePath)
     .subscribe((json)=>{
@@ -14,38 +15,7 @@ const getJson = (csvFilePath) => csv({delimiter:';'})
         })
 });
 
-const csv1='./Carga_tiendas.csv';
-const csv2='./Carga_extensiones.csv';
-
-const tiendas = []
-
-getJson(csv1)
-    .then(json => {
-        for (let i = 0; i < json.length; i++) {
-            const tienda = json[i];
-            tiendas.push(tienda);
-        }
-    })
-    .catch(err => console.log(err));
-
-const extensiones = []
-
-getJson(csv2)
-    .then(json => {
-        for (let i = 0; i < json.length; i++) {
-            const extension = json[i];
-            extensiones.push(extension);
-        }
-    })
-    .catch(err => console.log(err));
-
-
-//ID_TIENDA;NOMBRE_TIENDA;DEPARTAMENTOS
-
-//ID_TIENDA;SECCION;PLANTA;ZONA;DESCRIPCION
-
-
+//exportamos la constante para utilizarla en app.js
 module.exports = {
-    tiendas,
-    extensiones
+    getJson
 }

@@ -1,0 +1,14 @@
+
+Nueva ejecución
+Insertada tienda con id: 1111, status: 201 - Created, Fecha: 9/4/2022, 12:25:01
+Insertada tienda con id: 3333, status: 201 - Created, Fecha: 9/4/2022, 12:25:01
+Insertada extensión de la tienda: 1111, status: 201 - Created, Fecha: 9/4/2022, 12:25:01
+Insertada extensión de la tienda: 1111, status: 201 - Created, Fecha: 9/4/2022, 12:25:01
+Insertada extensión de la tienda: 3333, status: 201 - Created, Fecha: 9/4/2022, 12:25:01
+
+Nueva ejecución
+Insertada tienda con id: 1111, status: 201 - Created, Fecha: 9/4/2022, 12:26:09
+Insertada tienda con id: 3333, status: 201 - Created, Fecha: 9/4/2022, 12:26:09
+Insertada extensión de la tienda: 1111, status: 201 - Created, Fecha: 9/4/2022, 12:26:09
+Insertada extensión de la tienda: 1111, status: 201 - Created, Fecha: 9/4/2022, 12:26:09
+Insertada extensión de la tienda: 3333, status: 201 - Created, Fecha: 9/4/2022, 12:26:09
